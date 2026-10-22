@@ -1,0 +1,26 @@
+# python virtual environments
+.venv/
+venv/
+
+#python generated files
+__pycache__/
+*.py[cod]
+
+#local secrets and environment variables
+.env
+.env.*
+
+#Allow safe examples configuration
+!.env.example
+
+#Django local database
+db.sqlite3
+
+#Test and coverage output
+.coverage
+htmlcov/
+
+#Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
